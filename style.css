@@ -1,0 +1,84 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #F5FBFF;
+  color: #18324A;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #0D47A1, #42A5F5);
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.bienvenida {
+  background: #D6EFFF;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+}
+
+.bienvenida h2 {
+  color: #0D47A1;
+  margin-bottom: 10px;
+}
+
+.lugares h2 {
+  color: #0D47A1;
+  margin-bottom: 18px;
+}
+
+.lugar {
+  background: white;
+  padding: 22px;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px #00000010;
+  border-left: 5px solid #42A5F5;
+}
+
+.lugar h3 {
+  color: #0D47A1;
+  margin-bottom: 8px;
+}
+
+footer {
+  background: #0D47A1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  .bienvenida {
+    padding: 22px;
+  }
+}
